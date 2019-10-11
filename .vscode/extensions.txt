@@ -1,0 +1,6 @@
+CoenraadS.bracket-pair-colorizer-2
+Equinusocio.vsc-material-theme
+formulahendry.auto-rename-tag
+naumovs.color-highlight
+PKief.material-icon-theme
+ritwickdey.LiveServer
