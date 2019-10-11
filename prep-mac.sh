@@ -25,4 +25,4 @@ while read line; do
 done < ./.vscode/extensions.txt
 
 echo ""
-echo "Installatie van extensies voltooid."
+echo "Alles is voltooid."
