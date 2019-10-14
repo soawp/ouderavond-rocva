@@ -1,0 +1,311 @@
+:root {
+	--accent: rgb(66, 176, 255);
+	--accent-darker: rgb(0, 124, 212);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Header - Logo*/
+#logo {
+	display: inline-flex;
+	align-self: center;
+	font-family: "Maven Pro";
+	text-align: center;
+	text-decoration-line: none;
+	color: white;
+}
+#logo > .logo-part {
+	margin: -7px 0 2px 0;
+}
+#logo > #logo-light {
+	font-weight: lighter;
+}
+#logo > #logo-bold {
+	font-weight: bolder;
+	color: var(--accent);
+}
+
+/* Header - Topbar */
+#top-bar {
+	position: fixed;
+	background: #222;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	z-index: 1000;
+}
+#top-bar > #top-bar-container {
+	display: flex;
+	height: 60px;
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 10px;
+}
+#invisible-space {
+	flex: 1;
+}
+#nav-items {
+	display: inline-flex;
+	list-style: none;
+	line-height: 60px;
+	transition: all .3s ease-in-out;
+}
+.nav-item {
+	margin: 0 30px 0 0;
+	font-family: "Fira Sans";
+	font-size: large;
+	font-weight: medium;
+	text-transform: capitalize;
+	text-decoration: none;
+	opacity: .6;
+	transition: all .3s ease-in-out;
+	color: white;
+}
+.nav-item > i {
+	margin-right: 6px;
+}
+.nav-item:hover {
+	opacity: 1;
+	text-shadow: 0 0 15px white;
+}
+
+/* Header - Hero Cover */
+#hero-head {
+	height: 700px;
+	width: 100%;
+	background-image: url("./media/banner5.jpg");
+	background-position: center;
+	background-size: cover;
+}
+#hero-overlay {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+}
+.hero-text {
+	font-family: "Maven Pro";
+	text-align: center;
+	margin: 5px 0;
+}
+#hero-title {
+	color: white;
+	font-size: 60px;
+}
+#hero-logo {
+	display: inline-flex;
+}
+#hero-logo-light {
+	font-weight: lighter;
+	font-size: 60px;
+}
+#hero-logo-bold {
+	font-weight: bolder;
+	font-size: 60px;
+	color: var(--accent);
+}
+#hero-subtitle {
+	color: lightgrey;
+	font-size: 45px;
+	font-weight: normal;
+}
+
+#bio {
+	font-family: "Fira Sans";
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+#bio-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-items: auto;
+	align-content: space-around;
+	height: 100%;
+	width: 100%;
+	max-width: 1800px;
+}
+#bio-title {
+	margin: 60px 0 10px;
+}
+#bio-subtitle {
+	margin: 10px 0;
+}
+.bio-description {
+	margin: 20px 0;
+}
+.bio-inner:last-child {
+	margin-bottom: 50px;
+}
+.bio-inner {
+	height: 100%;
+	margin: 20px;
+}
+#bio-buttons-container {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0 10px;
+}
+.bio-buttons {
+	background-color: var(--accent-darker);
+	color: white;
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: none;
+}
+#bio-inner-left {
+	position: relative;
+	height: 100%;
+	width: 50%;
+}
+
+#bio-inner-right {
+	height: 100%;
+	width: 50%;
+}
+#bio-image {
+	background-image: url("./media/showoff1.jpeg");
+	background-position: center;
+	height: 500px;
+	width: auto;
+	transform: scale(.8);
+}
+
+
+
+
+#waarom {
+	background: rgb(248, 248, 248);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+	font-family: "Fira Sans";
+}
+#waarom-titel {
+	color: black;
+	margin: 30px 0px;
+	text-align: center;
+	font-size: 40px;
+}
+#waarom-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 10px;
+}
+
+.waarom-blok {
+	background-color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	width: 500px;
+	height: 300px;
+	padding: 20px 40px 30px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .6);
+	margin: 0 5px 20px 5px;
+	
+}
+.waarom-blok-titel {
+	margin-bottom: 10px;
+	color: #111;
+}
+.waarom-blok-text {
+	margin: 0 0 20px;
+	color: #333;
+}
+.waarom-blok-button {
+	position: absolute;
+	display: block;
+	font-weight: normal;
+	font-size: 16px;
+	background-color: var(--accent-darker);
+	color: white;
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: none;
+	right: 0;
+	bottom: 0;
+	margin: 18px 25px;
+	transition: all .4s ease-in-out;
+}
+.waarom-blok-button:hover {
+	background-color: var(--accent);
+}
+
+#contact {
+	font-family: "Fira Sans";
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+#contact-container {
+	max-width: 1800px;
+	width: 100%;
+	height: 100%;
+}
+.contact-inner {
+	margin: 50px 0px;
+}
+#contact-inner-left {
+	display: flex;
+	width: 50%;
+}
+#contact-inner-right {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+#contact-inner-right > * {
+	margin: 10px;
+}
+
+#contact-inner-right > #name,
+#contact-inner-right > #email,
+#contact-inner-right > #message {
+	font-family: "Fira Sans";
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(0, 0, 0, .1);
+	font-size: 16px;
+	padding: 0 10px;
+	line-height: 40px;
+}
+#contact-inner-right > #name,
+#contact-inner-right > #email {
+	height: 40px;
+}
+#contact-inner-right > #message {
+	resize: none;
+	height: 200px;
+	padding: 5px 10px 0px 10px;
+}
+footer {
+	background: #111;
+	width: 100%;
+	height: 600px;
+	bottom: 0;
+}
+#footer-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 10px;
+}

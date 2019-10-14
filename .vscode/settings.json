@@ -3,7 +3,6 @@
 	"workbench.colorTheme": "Material Theme Darker High Contrast",
 	"material-icon-theme.folders.color": "#F44336",
 	"workbench.colorCustomizations": {
-		"activityBarBadge.background": "#F44336",
 		"list.activeSelectionForeground": "#F44336",
 		"list.inactiveSelectionForeground": "#F44336",
 		"list.highlightForeground": "#F44336",
@@ -12,7 +11,6 @@
 		"textLink.foreground": "#F44336",
 		"progressBar.background": "#F44336",
 		"pickerGroup.foreground": "#F44336",
-		"tab.activeBorder": "#F44336",
 		"notificationLink.foreground": "#F44336",
 		"editorWidget.resizeBorder": "#F44336",
 		"editorWidget.border": "#F44336",
