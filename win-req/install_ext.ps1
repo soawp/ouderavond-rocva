@@ -20,4 +20,4 @@ foreach ($line in [System.IO.File]::ReadLines("./.vscode/extensions.txt")) {
 Write-Output ""
 Write-Output "Alles is voltooid."
 
-code . --user-data-dir "./.vscode/" --extensions-dir "./.vscode/ext" "./opdracht/index.html" "./opdracht/style.css"
+code . --user-data-dir "./.vscode/udata" --extensions-dir "./.vscode/ext" "./opdracht/index.html" "./opdracht/style.css"

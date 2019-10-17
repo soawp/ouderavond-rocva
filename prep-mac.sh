@@ -27,4 +27,4 @@ done <./.vscode/extensions.txt
 
 echo ""
 echo "Alles is voltooid."
-code . --user-data-dir "./.vscode/" --extensions-dir "./.vscode/ext" "./opdracht/index.html" "./opdracht/style.css"
+code . --user-data-dir "./.vscode/udata/" --extensions-dir "./.vscode/ext" "./opdracht/index.html" "./opdracht/style.css"
