@@ -3,10 +3,9 @@ Clear-Host
 Write-Output "Voorbereiden..."
 Write-Output "================================================"
 
-git fetch --all 
-git reset --hard origin/master
+git fetch --all
 git clean -f -d
-
+git reset --hard origin/master
 
 Write-Output ""
 Write-Output "Installeren van extensies..."
