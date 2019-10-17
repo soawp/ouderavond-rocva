@@ -1,2 +1,2 @@
-powershell Start-Process REG -Verb runAs -Argumentlist 'import win-req\allow-scripts-win.reg'
-powershell Start-Process POWERSHELL -Argumentlist 'win-req\install_ext.ps1'
+powershell Start-Process REG -ArgumentList 'import .\win-req\allow-scripts-win.reg' -Verb runAs -WorkingDirectory .
+powershell Start-Process POWERSHELL -ArgumentList '.\win-req\install_ext.ps1' -WorkingDirectory .
