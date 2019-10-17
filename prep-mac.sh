@@ -6,23 +6,18 @@ clear
 echo "Voorbereiden..."
 echo "================================================"
 
-rm ./prepare.log 2>/dev/null   # clean up before we start.
-git fetch --all                # and make sure the local repo
-git reset --hard origin/master # is ready and up to date.
-git clean -f -d
-mkdir ./.vscode/ext
+rm ./prepare.log 2>/dev/null	# clean up before we start.
+git fetch --all 				# and make sure the local repo
+git clean -f -d                	# is ready and up to date.
+git reset --hard origin/master	
 
 echo ""
 echo "Installeren van extensies..."
 echo "================================================"
 
-install_ext() {
-	echo "Installeren van extensie '$1'..."
-	code -r --install-extension "$1" --force --extensions-dir "./.vscode/ext" >>./prepare.log
-}
-
 while read line; do
-	install_ext "${line}"
+	echo "Installeren van extensie '${line}'..."
+	code -r --install-extension "${line}" --force --extensions-dir "./.vscode/ext" >>./prepare.log
 done <./.vscode/extensions.txt
 
 echo ""
