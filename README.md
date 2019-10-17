@@ -16,8 +16,8 @@ Het meeste van de opdracht is al gedaan omdat het voornamelijk bedoeld is om "te
 4. In de terminal typ vervolgens `cd ~\Desktop`
 5. Clone de repository met `git clone https://github.com/spectrapulse/ouderavond-rocva`
 6. Na de clone typ `cd ouderavond-rocva`
-7. Typ op Windows: `prep-win.cmd` en laat de installer haar werk doen.
-7. Typ op macOS: `chmod +x prep-mac.sh && ./prep-mac.sh` en laat de installer haar werk doen.
+7. Typ op Windows: `prep-win.cmd` en laat de installer haar werk doen. Typ op macOS: `chmod +x prep-mac.sh && ./prep-mac.sh` en laat de installer haar werk doen.
+
 
 ## Als u het nogmaals wilt openen: 
 Als u achteraf het weer moet openen volg dan de instructies nogmaals behalve 5.
