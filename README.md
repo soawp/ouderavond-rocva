@@ -19,7 +19,7 @@ Het meeste van de opdracht is al gedaan omdat het voornamelijk bedoeld is om "te
 7. Typ op Windows: `prep-win.cmd` en laat de installer haar werk doen.
 7. Typ op macOS: `chmod +x prep-mac.sh && ./prep-mac.sh` en laat de installer haar werk doen.
 
-## Installatie voor ouderavond: 
+## Als u het nogmaals wilt openen: 
 Als u achteraf het weer moet openen volg dan de instructies nogmaals behalve 5.
 Op mac doet u het zelfde maar inplaats van het draaien van `chmod +x prep-mac.sh && ./prep-mac.sh` op 7.
 typt u alleen `./prep-mac.sh`.
