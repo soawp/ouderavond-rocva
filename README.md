@@ -12,7 +12,7 @@ Het meeste van de opdracht is al gedaan omdat het voornamelijk bedoeld is om "te
 ## Installatie voor ouderavond:
 1. Open Visual Studio Code.
 2. Houd `CTRL+SHIFT+P` vast, typ "terminal" en selecteer vervolgens "Open New Terminal"
-3. Als je op Windows bent dan typ `CMD`
+3. Als je op Windows bent typ `CMD`
 4. In de terminal typ vervolgens `cd ~\Desktop`
 5. Clone de repository met `git clone https://github.com/spectrapulse/ouderavond-rocva`
 6. Na de clone typ `cd ouderavond-rocva`
